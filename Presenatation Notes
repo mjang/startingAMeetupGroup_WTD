@@ -1,14 +1,28 @@
 Slide 1
 
-Hi, I'm Mike Jang, Senior Technical Writer for a company called ForgeRock. We create Identity Management software as 
+I'm honored to be here among you, web developers who have created some fabulous code, code that may solve some of 
+the critical problems of our time -- or maybe that critical application that can help you get that startup off the 
+ground.
+
+Slide 
+
+I know, a lot of you are proud of your self-documenting code. And yes, when I take the time to read self-documenting code, 
+it can help me understand the intent of an application. However, when code starts getting real, when it goes beyond say
+a few hundred lines, it starts looking like this -- a picture of human DNA
+
+Slide 
+
+I'm Mike Jang, Senior Technical Writer for a company called ForgeRock. We create Identity Management software as 
 web applications. I spend most of my time "reverse engineering" the code that goes into those web applications.
 
 In this talk, I'll describe a systematic method for documentation -- with steps that anyone can follow. 
 
-Slide 2
+Slide 
 
 Now you've created a web app. You know that it's the best thing since sliced bread. You want to tell the world about it. 
 The first question is: HOW
 
 You can start writing about your web app. You could blog. You could even create a screen-based YouTube where you describe
-the fabulous things that your potential customers can do 
+the fabulous things that your potential customers can do. Whatever media you select, the principles are the same
+
+Slide: 
