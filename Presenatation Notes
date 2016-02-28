@@ -1,46 +1,206 @@
-Slide 1
-
-I'm honored to be here among you, web developers who have created some fabulous code, code that may solve some of 
-the critical problems of our time -- or maybe that critical application that can help you get that startup off the 
-ground.
 
 Slide 
+
+I'm Mike Jang, Senior Technical Writer for a company called ForgeRock. 
+
+We create Identity Management software as web applications
+
+
+I work in our metro Portland office – there are 26 of us
+
+24 devs, QA, and support, 1 office manager – and me, the writer
+
+It's my mission to spread the word
+To make sure that people know the good work that my developers do
+To make sure that our deployers can take advantage of the features that we build into our product
+
+
+I want to help you do the same
+
+In this talk, I'll describe key topics that you need to include in your docs
+
+-- and anyone can follow those topics 
+
+*****
+
+First some disclaimers – I have a bias – towards open source. 
+So if you're not interested in open source, you're welcome to “zone out” when I talk about 
+source code and copyrights
+
+I'll be pushing a bit – if you want simple documentation, 
+
+you'll need an easy button. 
+
+But creating that button can be difficult. 
+
+It means scripting, it means doing the work once, 
+
+so many admins can do the same thing in a consistent way, every time they install, use, or upgrade your product
+
+*******
+
+While I'll be talking about documentation – the title is important
+
+We have a subject – webapps – a focus of the fluent conference
+	and we have an audience – deployers
+		The people who you want to install and run  your webapps
+
+https://pixabay.com/en/audience-crowd-event-people-648476/ CC0
+
+
+Slide
+
+So who is your audience – I'd split them into three categories
+
+The first one is pretty obvious 
+	As developers, we hope that the people who will install your software understand us
+	And you think you can pretty much talk like a normal developer in your doc 
+
+	But.....      – not all admins – have DevOps experience
+
+	And they may have gotten their jobs through certification
+		yeah, that piece of paper. 		
+
+	So yes, we need to explain a few things
+	
+But as for the next two audiences – if I were you, I might think
+
+Are you kidding me?
+	
+
+Slide
+
+But wait – 
+This is San Francisco. We're in the center of the startup world
+
+	And what's the focus – if we have a great product, a great idea, 
+
+		We want to get attention  – from Analysts and Venture Capitalists
+
+		Sure, many of these people have a technical background
+
+	But they don't have a lot of time to read your code 
+
+	And they're the people who make a difference
+
+	to the success or failure of your webapp
+
+Slide 
+
+Stepping back a moment – I Googled “just read the code” a few days ago, and got over 300,000 results!
 
 I know, a lot of you are proud of your self-documenting code. And yes, when I take the time to read self-documenting code, 
-it can help me understand the intent of an application. However, when code starts getting real, when it goes beyond say
-a few hundred lines, it starts looking like this -- a picture of human DNA
 
-Slide 
+it can help me understand the intent of an application. However, when code starts getting real, when it goes beyond say a few hundred lines – 
 
-I'm Mike Jang, Senior Technical Writer for a company called ForgeRock. We create Identity Management software as 
-web applications. I spend most of my time "reverse engineering" the code that goes into those web applications.
 
-In this talk, I'll describe a systematic method for documentation -- with steps that anyone can follow. 
 
-Slide 
+
+Slide: Self-Documenting Code
+
+
+If you're a kid with 20/20 vision, this JavaScript code excerpt is easy to read...
+
+For me, it takes 4 or 5 of these files, 
+before it feels like I'm reading the front page of the New York Times
+
+
+Slide
+
+This bit is from 1912, when they didn't even bother with pictures!
+
+
+Slide
+
+And to your audience – especially analysts and VCs –
+
+it starts looking like this -- a picture of human DNA
+
+That's not what you want when that analyst or venture capitalist starts looking at your software
+(US Government picture)
+
+
+Slide
+
+To quote that UI design book, “Don't Make Me Think”
+
+If your code makes someone think – 
+	Your geekiest admins might still be interested – if they're one of your support engineers
+
+	But the analysts – and your potential VC investors....
+
+	What would they do with your project... well, you know :)
+
+
+Slide
+
 
 Now you've created a web app. You know that it's the best thing since sliced bread. You want to tell the world about it. 
 The first question is: HOW
 
 You can start writing about your web app. You could blog. You could even create a screen-based YouTube where you describe
-the fabulous things that your potential customers can do. Whatever media you select, the principles are the same
+the fabulous things that your potential customers can do. 
+
+I'm a technical communicator – I'm indifferent to media. But I can help you know what kind of info to add – to a doc, a YouTube, a podcast, a blog, whatever.
+
+You could be a Hemingway, You could share your info with a Selfie.
+
+Whatever media you select, the elements you should share are the same
+
+
+https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Writing_at_Campsite_in_Kenya_-_NARA_-_192655.jpg (National Archives, free license) 
+
+https://pixabay.com/en/selfie-stick-selfie-stick-phone-911852/ (CCO public domain)
+
 
 Slide: 
 
-Here are the big picture steps -- we'll go through them, one at a time. And yes, I'll include code snippets where appropriate
+Here are the 10 big picture elements -- we'll go through them, one at a time. And yes, I'll include code snippets where appropriate
+
 
 Slide: 
+
+So what's the need for your software? 
+
+In open source lore – the story of good software
+
+scratches that itch – 
+
+Some common use case that justifies all the work that potential users – and customers need to put in to 
+put your software into production
+
+by the way, that's my dog Katie, scratching her itch :
+
+Slide
 
 This is your chance to tell the world, in a few short words, why your software
-It's a chance to show empathy -- in the open source world, it your chance to describe what itch you're scratching
-  Presumably, others have the same itch. 
+It's a chance to show empathy -- in the open source world, it is your chance to describe what itch you're scratching
 
-Linus Torvalds made it clear in his initial emails on Linux
-Back in the 1990s, corporate America was taking UNIX away from us
-Linus described the need for a community operating system
+Presumably, others have the same itch
+
+
+(picture taken by speaker)
+
+Slide:
+
+This is the chance to tell the world – at least the people who read and hear about your software
+
+in the simplest possible terms
+
+
+Slide:
+
+Linus Torvalds did it in his initial emails on Linux
+
+A little back-story: UNIX was free for the longest time. 
+Back in the 1990s, corporate America was taking UNIX away
+
+Linus described the need for a replacement, as a community operating system
 He presented Linux as a solution
 
 We listened, and the world was forever changed.
+
+Photo credit: "Linus Torvalds" by Unknown who sold rights to linuxmag.com
 
 Slide: 
 
@@ -58,5 +218,306 @@ What does it do?
 
 Get that right, and you'll have the introduction that you need.
 
+
+Slide:
+One more slide on Need – some examples
+So you can start thinking about your product, your personal project
+How you can set it up for success
+
 Slide: 
 
+Now that you've gotten people's attention – or maybe even that venture capitalist
+
+They're primed. They're ready – to build that foundation – the picture I'm trying to show :)
+
+They understand that software has prerequisites – and they're ready to listen.
+
+They have a crush on you – and it's time for you to test those limitations
+
+If you say: I don't do Linux, and they still love you – 
+
+You're helping potential users create their foundation. 
+
+Slide
+
+Make a checklist of your requirements. 
+
+People who “Know” that your software will meet their needs, will use your checklist
+
+If you require
+
+RHEL 7
+Java 8
+8 Gigs of RAM
+
+Now's the time to say so!
+
+You can create scripts to install software – but the reader is responsible for their own hardware and operating system.
+
+And create a checklist – so your readers know what hardware they really need.
+
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Foundation-M2325.jpg/1024px-Foundation-M2325.jpg Public domain
+
+
+Slide: 
+
+Now it's time to help that reader set up installation
+
+Your users have worked hard already. 
+
+You want to make it as easy as possible for a user
+
+If possible, set up a script that unpacks the archive, set up some default working version of your software
+
+Also known as the easy button
+
+By User:Yskyflyer (own work (2 feet from my computer, On my Desk)) [CC BY-SA 2.5 (http://creativecommons.org/licenses/by-sa/2.5)], via Wikimedia Commons
+ https://commons.wikimedia.org/w/index.php?curid=854553 
+
+
+Slide:
+
+We know what people expect when they've successfully set up some software
+
+Hello World!
+
+Make sure they see that when they install your web application
+
+
+Slide:
+
+Here's an example of what users see when they install NGINX
+
+They've congratulated the user on success 
+– they warn the user that they need to do more
+– they give them directions on what to do next – either see the * Linked * doc,
+–--- or get commercial support 
+
+
+Slide: 
+
+Now that your users have installed your software, it's time to take them from
+
+Hello World to Hello Mars
+
+Show them how to change a configuration file
+
+Even if it's just setting up your first virtual website
+
+
+Slide: 
+
+The Apache project does an excellent job of this
+
+They include sample code of how to get from 
+Hello world to Hello Mars. 
+
+This is an excerpt from the Apache 2.2 httpd.conf configuration file
+	which includes comments on how to set up a virtual website
+	
+
+Excerpt from httpd.conf, Apache 2.0 license
+
+
+Slide
+
+Of course, we're working with web applications, 
+
+which require more than just HTML
+
+as we've seen over the past few days at this conference
+
+One motto our devs use – is: You can do anything with our webapp, if you just modify the Javascript
+
+Yeah, I know – this is JSON, but 
+
+the Axiom applies, independent of the language you might user
+
+
+Slide: 
+
+So here's another JSON file excerpt – 
+
+Showing how you can activate self-service features
+
+Sure, the code seems to be self-documenting – 
+
+But you can point to the configuration files used to customize each of these self-service features
+
+
+Slide
+
+Here's another code sample from the same web application
+
+Real Javascript! With functions!
+
+If you want people to use these functions, you'll have to explain them
+
+Thus:
+
+Slide:
+
+We have documentation that describes functionality
+
+In this case, of OpenIDM dot create, we show people what they can do
+
+Yeah, if you have to do it for all functions in your webapp, that may seem excessive
+
+But that's real life with webapps
+
+Slide:
+
+Instead of guiding users into source code
+
+You could set up a UI for your admins
+
+And it's a pretty thing – Sales engineers love a UI
+
+Yeah, a UI can be a good front end for changing configuration files
+
+
+Slide:
+
+But a UI is not enough
+
+When you create a UI, you need text
+
+This file for our UI has over 2000 lines
+
+Yeah, it's been good for us, but....
+
+
+Slide:
+
+So back to builds... 
+
+If you're documenting code samples, 
+
+you're stimulating developers, who may want to build their customizations, into your code
+
+They'll want to build your product 
+
+You should show them how to build, like you build
+
+Even if it's as simple as cloning your code
+
+Installing Java, etc. 
+
+and running mvn clean install 
+
+
+Slide: 
+
+Tips and Tricks – Really a glib title, as this is the heart of most documentation. 
+
+If you're just starting your webapp, you can use this section to show “what's cool”
+
+But after all of this code, do you think users are in the mood for more? 
+
+
+
+Slide: 
+
+They want something useful 
+
+Give them the use cases
+
+And show them how it works
+
+Sure it's great if you can do it with an administrative UI
+
+But that isn't always possible in our world
+
+
+
+Slide: Troubleshooting
+
+People are busy. They'll skip steps.
+
+What steps do you ask?
+
+Start with the prerequisites
+
+For example, if you require some version of Java,
+
+you'll need an environment variable
+
+What error do you see if they don't have that variable?
+
+
+Slide: 
+
+This applies only if you want contributions
+
+Yeah, it's normally associated with Open Source software
+
+But it's one of the challenges of excellent documentation
+
+
+Slide: 
+
+This is one subject of dread
+
+IANAL
+
+We are in the US
+
+Legally, if you don't choose a license, you default to US copyright law
+
+If you don't care about Open Source, that should be fine
+
+
+Slide: 
+
+If you do care about Open Source, GitHub provides an excellent guide
+
+This screenshot is from choosealicense dot com – 
+
+It can help you choose from a variety of Open Source licenses
+
+I won't get into the religious wars between the GPL and other licenses 
+	such as Apache and MIT. I
+
+I'll just say that choices are available – 
+
+and even the GPL is a copyright license – even if they refer to it as “copyleft”
+
+Slide:
+
+Whatever license you choose, do maintain the year in your code
+
+Most of our code is shared under an open source copyright license, 
+
+And every time we change or add to it in a new year, we update the copyright
+on that file. 
+
+Copyright law – whatever the intricacies, depends on the year of publication
+
+
+Slide: Upgrades
+
+A necessary evil
+
+Your product isn't perfect. Even if it is the perfect mousetrap, you'll have users who will want more
+
+Every time I do an upgrade, I hold my breath
+
+I wonder – what are the risks? What will I gain
+
+Thus I need a change log
+
+
+Slide:
+
+But sometimes, I just need that additional feature 
+
+– that radar dome atop the Boeing 767 that you see here.
+
+Wouldn't it be cool if you could just add that radar dome
+
+Slide: 
+
+Just by clicking that Easy button?
+
+Well, that's 
