@@ -11,7 +11,7 @@ I work in our metro Portland office – there are 26 of us
 24 devs, QA, and support, 1 office manager – and me, the writer
 
 It's my mission to spread the word
-To make sure that people know the good work that my developers do
+To make sure that people know the good work that our developers do
 To make sure that our deployers can take advantage of the features that we build into our product
 
 
@@ -45,8 +45,6 @@ We have a subject – webapps – a focus of the fluent conference
 	and we have an audience – deployers
 		The people who you want to install and run  your webapps
 
-https://pixabay.com/en/audience-crowd-event-people-648476/ CC0
-
 
 Slide
 
@@ -67,6 +65,8 @@ But as for the next two audiences – if I were you, I might think
 
 Are you kidding me?
 	
+	https://pixabay.com/en/audience-crowd-event-people-648476/ CC0
+
 
 Slide
 
@@ -84,30 +84,38 @@ This is San Francisco. We're in the center of the startup world
 	And they're the people who make a difference
 
 	to the success or failure of your webapp
+	
+	https://en.wikipedia.org/wiki/San_Francisco_Bay_Area#/media/File:SF_From_Marin_Highlands3.jpg (public domain)
 
 Slide 
 
 Stepping back a moment – I Googled “just read the code” a few days ago, and got over 300,000 results!
 
-I know, a lot of you are proud of your self-documenting code. And yes, when I take the time to read self-documenting code, 
+I know, a lot of you are proud of your self-documenting code. 
+And yes, when I take the time to read such code, 
 
-it can help me understand the intent of an application. However, when code starts getting real, when it goes beyond say a few hundred lines – 
+it can help me understand the intent of an application. 
+However, when code starts getting real, when it goes beyond say a few hundred lines – 
 
-
+Pixabay image, CC0 public domain
 
 
 Slide: Self-Documenting Code
-
 
 If you're a kid with 20/20 vision, this JavaScript code excerpt is easy to read...
 
 For me, it takes 4 or 5 of these files, 
 before it feels like I'm reading the front page of the New York Times
 
+ForgeRock open source code:
+https://stash.forgerock.org/projects/OPENIDM/repos/openidm/browse/openidm-ui/openidm-ui-admin/src/main/js/org/forgerock/openidm/ui/admin/selfservice/PasswordResetConfigView.js
 
-Slide
 
-This bit is from 1912, when they didn't even bother with pictures!
+Slide: New York Times
+
+This bit is from 1914, when they didn't even bother with pictures!
+
+https://commons.wikimedia.org/wiki/File:New_York_Times_1914-07-29.jpg public domain
 
 
 Slide
@@ -131,6 +139,8 @@ If your code makes someone think –
 
 	What would they do with your project... well, you know :)
 
+http://www.amazon.com/gp/product/0321965515/
+
 
 Slide
 
@@ -138,15 +148,16 @@ Slide
 Now you've created a web app. You know that it's the best thing since sliced bread. You want to tell the world about it. 
 The first question is: HOW
 
-You can start writing about your web app. You could blog. You could even create a screen-based YouTube where you describe
-the fabulous things that your potential customers can do. 
-
-I'm a technical communicator – I'm indifferent to media. But I can help you know what kind of info to add – to a doc, a YouTube, a podcast, a blog, whatever.
+If you're a developer, you'll start with a README.
 
 You could be a Hemingway, You could share your info with a Selfie.
 
-Whatever media you select, the elements you should share are the same
+But that's just one option. You could blog. You could even YouTube it.
 
+Whatever you do, don't forget to show the fabulous things that your potential customers can do. 
+
+Whatever media you select, the elements you should share are the same
+	
 
 https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Writing_at_Campsite_in_Kenya_-_NARA_-_192655.jpg (National Archives, free license) 
 
@@ -155,7 +166,13 @@ https://pixabay.com/en/selfie-stick-selfie-stick-phone-911852/ (CCO public domai
 
 Slide: 
 
-Here are the 10 big picture elements -- we'll go through them, one at a time. And yes, I'll include code snippets where appropriate
+Here are the 10 big picture elements: 
+
+My 10 steps to a better README --
+
+10 steps to excellent documentation. 
+
+-- we'll go through them, one at a time. And yes, I'll include code snippets where appropriate
 
 
 Slide: 
@@ -173,7 +190,10 @@ by the way, that's my dog Katie, scratching her itch :
 
 Slide
 
-This is your chance to tell the world, in a few short words, why your software
+This is your chance to tell the world, in a few short words, 
+
+why ---- your software
+
 It's a chance to show empathy -- in the open source world, it is your chance to describe what itch you're scratching
 
 Presumably, others have the same itch
