@@ -1,4 +1,6 @@
 
+For slides, see http://www.slideshare.net/secret/HEAfGNBicoQXzY 
+
 Slide 
 
 I'm Mike Jang, Senior Technical Writer for a company called ForgeRock. 
@@ -579,5 +581,18 @@ The choice is yours. You can document
 2) To upgrade your system, run the following command...
 
 
+Slide:
 
+So what are those lessons learned?
 
+From this talk you know
+
+How to describe the Need
+The importance of making tasks easy for the deployer
+and the need to illustrate useful ways to customize
+
+I've given you a structure
+You now have -- at least some of the tools that you need
+to 
+
+Help deployers run your webapps
