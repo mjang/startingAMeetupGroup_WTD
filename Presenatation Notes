@@ -188,6 +188,9 @@ put your software into production
 
 by the way, that's my dog Katie, scratching her itch :
 
+(own picture)
+
+
 Slide
 
 This is your chance to tell the world, in a few short words, 
@@ -207,6 +210,8 @@ This is the chance to tell the world – at least the people who read and hear a
 
 in the simplest possible terms
 
+Pixabay image, CC0 public domain
+
 
 Slide:
 
@@ -221,6 +226,7 @@ He presented Linux as a solution
 We listened, and the world was forever changed.
 
 Photo credit: "Linus Torvalds" by Unknown who sold rights to linuxmag.com
+
 
 Slide: 
 
@@ -244,6 +250,7 @@ One more slide on Need – some examples
 So you can start thinking about your product, your personal project
 How you can set it up for success
 
+
 Slide: 
 
 Now that you've gotten people's attention – or maybe even that venture capitalist
@@ -257,6 +264,9 @@ They have a crush on you – and it's time for you to test those limitations
 If you say: I don't do Linux, and they still love you – 
 
 You're helping potential users create their foundation. 
+
+Pixabay image, CC0 public domain
+
 
 Slide
 
@@ -275,7 +285,6 @@ Now's the time to say so!
 You can create scripts to install software – but the reader is responsible for their own hardware and operating system.
 
 And create a checklist – so your readers know what hardware they really need.
-
 
 https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Foundation-M2325.jpg/1024px-Foundation-M2325.jpg Public domain
 
@@ -304,6 +313,9 @@ Hello World!
 
 Make sure they see that when they install your web application
 
+Pixabay image, CC0 public domain
+
+
 
 Slide:
 
@@ -313,6 +325,8 @@ They've congratulated the user on success
 – they warn the user that they need to do more
 – they give them directions on what to do next – either see the * Linked * doc,
 –--- or get commercial support 
+
+own screenshot, after installation of NGINX on Ubuntu
 
 
 Slide: 
@@ -324,6 +338,9 @@ Hello World to Hello Mars
 Show them how to change a configuration file
 
 Even if it's just setting up your first virtual website
+
+Pixabay image, CC0 public domain
+
 
 
 Slide: 
@@ -352,18 +369,22 @@ One motto our devs use – is: You can do anything with our webapp, if you just 
 
 Yeah, I know – this is JSON, but 
 
-the Axiom applies, independent of the language you might user
+the Axiom applies, independent of the language you might use
 
 
 Slide: 
 
-So here's another JSON file excerpt – 
+Here's how I'd document this -- I'd say password policy, you could say password complexity
 
-Showing how you can activate self-service features
+The simplest approach is to include a table with just the essentials:
 
-Sure, the code seems to be self-documenting – 
+minLength
+numCaps
+numNums
+disallowedFields
 
-But you can point to the configuration files used to customize each of these self-service features
+Keep it simple -- nobody's eyes would glaze over
+
 
 
 Slide
@@ -376,6 +397,7 @@ If you want people to use these functions, you'll have to explain them
 
 Thus:
 
+
 Slide:
 
 We have documentation that describes functionality
@@ -385,6 +407,7 @@ In this case, of OpenIDM dot create, we show people what they can do
 Yeah, if you have to do it for all functions in your webapp, that may seem excessive
 
 But that's real life with webapps
+
 
 Slide:
 
@@ -473,6 +496,13 @@ This applies only if you want contributions
 Yeah, it's normally associated with Open Source software
 
 But it's one of the challenges of excellent documentation
+
+Pixabay image, CC0 public domain
+
+
+Slide: Contributions: result
+
+
 
 
 Slide: 
