@@ -38,4 +38,15 @@ Slide 22: Own screenshot, after installation of NGINX on Ubuntu
 Slide 23: https://en.wikipedia.org/wiki/Satellite_imagery#/media/File:Nasa_blue_marble.jpg public domain
 http://www.jpl.nasa.gov/spaceimages/details.php?id=PIA02653
 
+Slide 24: Excerpt from httpd.conf, Apache 2.0 license
+
+Slide 25: ForgeRock OpenIDM code (CDDL), managed.json file, https://stash.forgerock.org/projects/OPENIDM/repos/openidm/browse/openidm-zip/src/main/resources/conf/managed.json
+
+Slide 27: ForgeRock OpenIDM code (CDDL), https://stash.forgerock.org/projects/OPENIDM/repos/openidm/browse/openidm-zip/src/main/resources/bin/defaults/script/workflow/triggerWorkflowFromSync.js
+
+Slide 28: Screenshot of OpenIDM doc (CPPL), http://openidm.forgerock.org/doc/bootstrap/integrators-guide/index.html#function-create
+
+Slide 29: Screenshot of OpenIDM UI, own work, log in, click Configure > User Registration
+
+
 
