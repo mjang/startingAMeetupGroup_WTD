@@ -1,1 +1,11 @@
 = README template
+
+This template goes with Mike Jang's FluentConf presentation: "Help Deployers run your Webapps". It includes 10 basic steps:
+
+== Why do I need this software
+
+1) Need: Keep it simple, in the following format:
+
+My software {active verb} feature
+
+== Prerequisites
