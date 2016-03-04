@@ -9,3 +9,21 @@ This template goes with Mike Jang's FluentConf presentation: "Help Deployers run
 My software {active verb} feature
 
 == Prerequisites
+
+2) Set up a checklist. Write something like:
+
+Before you run this software, you need to have (or install):
+
+a) hardware, such as RAM, space requirements
+b) operating system
+c) software, such as some version of a JDK
+d) etc.
+
+== Installation
+
+3) Specify a script to install your software, that leads to a "Hello World" configuration
+
+Assumes you've done the work to create that script
+
+== Configuration
+
