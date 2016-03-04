@@ -12,12 +12,18 @@ I work in our metro Portland office – there are 26 of us
 
 24 devs, QA, and support, 1 office manager – and me, the writer
 
-It's my mission to spread the word
+As the writer, it's my mission to spread the word
 To make sure that people know the good work that our developers do
 To make sure that our deployers can take advantage of the features that we build into our product
 
 
-I want to help you do the same
+How many people here are developers or QA
+
+I assume that you all know something of the English Language, 
+
+If you do, you can write an excellent README
+
+I want to help you help your deployers use your Webapps
 
 In this talk, I'll describe key topics that you need to include in your docs
 
@@ -46,7 +52,7 @@ We have a subject – webapps – a focus of the fluent conference
 		The people who you want to install and run  your webapps
 
 
-Slide
+*******
 
 So who is your audience – I'd split them into three categories
 
@@ -65,10 +71,8 @@ But as for the next two audiences – if I were you, I might think
 
 Are you kidding me?
 	
-	https://pixabay.com/en/audience-crowd-event-people-648476/ CC0
 
-
-Slide
+***********
 
 But wait – 
 This is San Francisco. We're in the center of the startup world
@@ -79,15 +83,13 @@ This is San Francisco. We're in the center of the startup world
 
 		Sure, many of these people have a technical background
 
-	But they don't have a lot of time to read your code 
+	But -- so what? -- they don't have a lot of time to read your code 
 
 	And they're the people who make a difference
 
 	to the success or failure of your webapp
 	
-	https://en.wikipedia.org/wiki/San_Francisco_Bay_Area#/media/File:SF_From_Marin_Highlands3.jpg (public domain)
-
-Slide 
+***********
 
 Stepping back a moment – I Googled “just read the code” a few days ago, and got over 300,000 results!
 
