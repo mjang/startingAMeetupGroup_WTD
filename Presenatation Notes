@@ -16,8 +16,16 @@ As the writer, it's my mission to spread the word
 To make sure that people know the good work that our developers do
 To make sure that our deployers can take advantage of the features that we build into our product
 
+*****************
 
-How many people here are developers or QA
+So let me get a sense of this audience
+
+How many people here are 
+
+Developers
+QA
+Writers
+Something else
 
 I assume that you all know something of the English Language, 
 
@@ -25,23 +33,25 @@ If you do, you can write an excellent README
 
 I want to help you help your deployers use your Webapps
 
-In this talk, I'll describe key topics that you need to include in your docs
+In this talk, I'll describe key topics that you need to include in your READMEs -- or your docs
 
 *****
 
 First some disclaimers – I have a bias – towards open source. 
-So if you're not interested in open source, you're welcome to “zone out” when I talk about 
-source code and copyrights
+
+So if you're not interested in open source, you might “zone out” 
+
+when I talk about source code and copyrights
 
 I'll be pushing a bit – if you want simple documentation, 
 
 you'll need an easy button. 
 
-But creating that button can be difficult. 
+But creating that button means more work for you, the developer.
 
-It means scripting, it means doing the work once, 
+You might even have to create another script or two, 
 
-so many admins can do the same thing in a consistent way, every time they install, use, or upgrade your product
+Your deployers can do the same thing in a consistent way, every time they install, use, or upgrade your product
 
 *******
 
@@ -130,51 +140,35 @@ But put enough of these base pairs together, and what do you get?
 
 But geneticists haven't cracked the mysteries of the human genome
 
-A
+You need some documentation. 
 
-That's not what you want when that analyst or venture capitalist starts looking at your software
-(US Government picture)
+Otherwise, that analyst or venture capitalist -- well 
 
+even they know what to put into /dev/null
 
-Slide
+**************
 
-To quote that UI design book, “Don't Make Me Think”
+Now you've made the commmitment to create some documentation. 
 
-If your code makes someone think – 
-	Your geekiest admins might still be interested – if they're one of your support engineers
+You know your Web app is the best thing since sliced bread. 
 
-	But the analysts – and your potential VC investors....
+You're ready to tell the world about it. 
 
-	What would they do with your project... well, you know :)
-
-http://www.amazon.com/gp/product/0321965515/
-
-
-Slide
-
-
-Now you've created a web app. You know that it's the best thing since sliced bread. You want to tell the world about it. 
 The first question is: HOW
 
-If you're a developer, you'll start with a README.
+If you're a developer, to paraphrase the Geico commercial, you'll start with a README.
 
 You could be a Hemingway, You could share your info with a Selfie.
 
-But that's just one option. You could blog. You could even YouTube it.
+But those are just two options. 
 
 Whatever you do, don't forget to show the fabulous things that your potential customers can do. 
 
 Whatever media you select, the elements you should share are the same
-	
 
-https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Writing_at_Campsite_in_Kenya_-_NARA_-_192655.jpg (National Archives, free license) 
+***************
 
-https://pixabay.com/en/selfie-stick-selfie-stick-phone-911852/ (CCO public domain)
-
-
-Slide: 
-
-Here are the 10 big picture elements: 
+big picture elements: 
 
 My 10 steps to a better README --
 
