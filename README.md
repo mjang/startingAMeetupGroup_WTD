@@ -13,4 +13,6 @@ Presentation Notes: My personal notes for what I might say with each slide. They
 
 * pic_credits: credits for each screenshot used in the presentation
 
+* LICENSE: Apache 2.0 (Disclaimer: IANAL)
+
 * Note: you may find the slidedeck at https://www.slideshare.net/secret/7dhgIrSgS1SKER
