@@ -97,34 +97,40 @@ I know, a lot of you are proud of your self-documenting code.
 And yes, when I take the time to read such code, 
 
 it can help me understand the intent of an application. 
-However, when code starts getting real, when it goes beyond say a few hundred lines – 
 
-Pixabay image, CC0 public domain
-
-
-Slide: Self-Documenting Code
+************
 
 If you're a kid with 20/20 vision, this JavaScript code excerpt is easy to read...
 
 For me, it takes 4 or 5 of these files, 
 before it feels like I'm reading the front page of the New York Times
 
-ForgeRock open source code:
-https://stash.forgerock.org/projects/OPENIDM/repos/openidm/browse/openidm-ui/openidm-ui-admin/src/main/js/org/forgerock/openidm/ui/admin/selfservice/PasswordResetConfigView.js
-
-
-Slide: New York Times
+*************
 
 This bit is from 1914, when they didn't even bother with pictures!
 
-https://commons.wikimedia.org/wiki/File:New_York_Times_1914-07-29.jpg public domain
+So you'll understand my point
+
+When to your audience of Venture Capitalists and Analysts
+
+and I'd argue every developer with less than 5 minutes to read about your project
+
+Your self-documenting code 
+
+*************
+
+starts looking like this -- a picture of human DNA
+
+I mean, that's self-documenting too
+
+If you're a geneticist, you understand these base pairs, what they do
+
+But put enough of these base pairs together, and what do you get?
 
 
-Slide
+But geneticists haven't cracked the mysteries of the human genome
 
-And to your audience – especially analysts and VCs –
-
-it starts looking like this -- a picture of human DNA
+A
 
 That's not what you want when that analyst or venture capitalist starts looking at your software
 (US Government picture)
