@@ -311,41 +311,37 @@ They've congratulated the user on success
 
 ****************
 
-Slide: 
-
 Now that your users have installed your software, it's time to take them from
 
 Hello World to Hello Mars
 
 Show them how to change a configuration file
 
-Even if it's just setting up your first virtual website
+Even if it's just setting up their first virtual website
 
-Pixabay image, CC0 public domain
-
-
-
-Slide: 
+**************
 
 The Apache project does an excellent job of this
 
-They include sample code of how to get from 
-Hello world to Hello Mars. 
+They include sample code which I classify as travel -- 
 
-This is an excerpt from the Apache 2.2 httpd.conf configuration file
+from 
+
+Hello World to Hello Mars. 
+
+This is an excerpt from the main Apache configuration file
+	
 	which includes comments on how to set up a virtual website
 	
-
-Excerpt from httpd.conf, Apache 2.0 license
-
-
-Slide
+**************
 
 Of course, we're working with web applications, 
 
-which require more than just HTML
+which require more than just a bit of code
 
 as we've seen over the past few days at this conference
+
+.
 
 One motto our devs use – is: You can do anything with our webapp, if you just modify the Javascript
 
@@ -353,8 +349,12 @@ Yeah, I know – this is JSON, but
 
 the Axiom applies, independent of the language you might use
 
+Take a look at the code in this webapp -- 
 
-Slide: 
+Think -- how would you document it?
+
+******************
+
 
 Here's how I'd document this -- I'd say password policy, you could say password complexity
 
@@ -365,24 +365,25 @@ numCaps
 numNums
 disallowedFields
 
-Keep it simple -- nobody's eyes would glaze over
+Don't include everything -- if you do, your reader's eyes will glaze over
 
+And they'll complain about TL:DR
 
+*************
 
-Slide
-
-Here's another code sample from the same web application
+Now here's another code sample from the same web application
 
 Real Javascript! With functions!
 
-If you want people to use these functions, you'll have to explain them
+If you want people to use these functions -- in their own JavaScript
+
+You'll have to explain those functions
 
 Thus:
 
+***************
 
-Slide:
-
-We have documentation that describes functionality
+We have documentation that describes functionality 
 
 In this case, of OpenIDM dot create, we show people what they can do
 
@@ -390,8 +391,34 @@ Yeah, if you have to do it for all functions in your webapp, that may seem exces
 
 But that's real life with webapps
 
+When you want your users to do their own customization
 
-Slide:
+**************
+
+Of course, with Web apps, you need to cover the REST call
+
+you could set up 
+	Curl commands
+	Endpoints and actions
+	Postman lists
+	
+Whatever you do, state the premises, and your readers can customize 
+
+-- and script them to meet their own needs
+
+**************
+
+Just to demonstrate
+
+Here's a sample REST call
+
+****************
+
+And here's a list of endpoints and actions
+
+Of course, you could set up automated tools such as Swagger or RAML, but that takes even more work
+
+***************
 
 Instead of guiding users into source code
 
@@ -401,38 +428,38 @@ And it's a pretty thing – Sales engineers love a UI
 
 Yeah, a UI can be a good front end for changing configuration files
 
-
-Slide:
+**************
 
 But a UI is not enough
 
-When you create a UI, you need text
+When you create a UI, you got more documentation to do -- for text within UIs
 
 This file for our UI has over 2000 lines
 
 Yeah, it's been good for us, but....
 
-
-Slide:
+**************
 
 So back to builds... 
 
 If you're documenting code samples, 
 
-you're stimulating developers, who may want to build their customizations, into your code
+you're stimulating developers, who may want to build their customizations, 
 
-They'll want to build your product 
+and compile them into your code
 
-You should show them how to build, like you build
 
-Even if it's as simple as cloning your code
+If so -- You should show them how to build, like you build
+
+Even if it's as simple as 
+
+git-cloning your code
 
 Installing Java, etc. 
 
 and running mvn clean install 
 
-
-Slide: 
+***************
 
 Tips and Tricks – Really a glib title, as this is the heart of most documentation. 
 
