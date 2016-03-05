@@ -335,7 +335,21 @@ This is an excerpt from the main Apache configuration file
 	
 **************
 
-Of course, we're working with web applications, 
+But who wants to settle for Mars
+
+When you have a galaxy of possibilities
+
+Tips and Tricks – Really a glib title, as this is the heart of most documentation. 
+
+If you're just starting your webapp, you can use this section to show “what's cool”
+
+But after all of this code, do you think users are in the mood for more? 
+
+
+
+**************
+
+So we're working with web applications, 
 
 which require more than just a bit of code
 
@@ -440,6 +454,17 @@ Yeah, it's been good for us, but....
 
 **************
 
+And that's a lot of code
+
+You've shared it, so you've let people under the hood
+
+But not everyone wants to do that work
+
+Some of your users will want easy buttons -- to include that special code
+
+
+**************
+
 So back to builds... 
 
 If you're documenting code samples, 
@@ -461,29 +486,6 @@ and running mvn clean install
 
 ***************
 
-Tips and Tricks – Really a glib title, as this is the heart of most documentation. 
-
-If you're just starting your webapp, you can use this section to show “what's cool”
-
-But after all of this code, do you think users are in the mood for more? 
-
-
-
-Slide: 
-
-They want something useful 
-
-Give them the use cases
-
-And show them how it works
-
-Sure it's great if you can do it with an administrative UI
-
-But that isn't always possible in our world
-
-
-
-Slide: Troubleshooting
 
 People are busy. They'll skip steps.
 
@@ -498,7 +500,7 @@ you'll need an environment variable
 What error do you see if they don't have that variable?
 
 
-Slide: 
+*****************
 
 This applies only if you want contributions
 
