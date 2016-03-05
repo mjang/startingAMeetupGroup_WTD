@@ -499,24 +499,35 @@ you'll need an environment variable
 
 What error do you see if they don't have that variable?
 
+If you have support engineers who can help
+
+-- here's your opportunity
+
 
 *****************
 
-This applies only if you want contributions
 
-Yeah, it's normally associated with Open Source software
+If you want contributions -- have a plan
 
-But it's one of the challenges of excellent documentation
+Make it easy for your community
 
-Pixabay image, CC0 public domain
+Give them access to your code
 
+Let them file bugs
 
-Slide: Contributions: result
+Let them create pull requests
 
+As long as your docs tell everyone how
 
+**************
 
+The result is sort of beyond documentation
 
-Slide: 
+But the kittens are cute, aren't they ?
+
+Well, I'm actually a dog guy
+
+***************
 
 This is one subject of dread
 
@@ -529,7 +540,7 @@ Legally, if you don't choose a license, you default to US copyright law
 If you don't care about Open Source, that should be fine
 
 
-Slide: 
+*****************
 
 If you do care about Open Source, GitHub provides an excellent guide
 
@@ -544,7 +555,7 @@ I'll just say that choices are available –
 
 and even the GPL is a copyright license – even if they refer to it as “copyleft”
 
-Slide:
+************
 
 Whatever license you choose, do maintain the year in your code
 
@@ -556,7 +567,7 @@ on that file.
 Copyright law – whatever the intricacies, depends on the year of publication
 
 
-Slide: Upgrades
+************
 
 A necessary evil
 
@@ -569,7 +580,8 @@ I wonder – what are the risks? What will I gain
 Thus I need a change log
 
 
-Slide:
+****************
+
 
 But sometimes, I just need that additional feature 
 
