@@ -585,12 +585,15 @@ Thus I need a change log
 
 But sometimes, I just need that additional feature 
 
-– that radar dome atop the Boeing 767 that you see here.
+The plane to the left is a Boeing 767 tanker.
+
+The plane to the right with the radardome on top 
+
+is a Boeing 767 AWACS
 
 Wouldn't it be cool if you could just add that radar dome
 
-
-Slide: 
+***************
 
 Just by clicking that Easy button?
 
@@ -599,14 +602,25 @@ Well, that takes work.
 The choice is yours. You can document
 
 1) How to change the configuration of your webapp
+
+and the 50 steps that go with it
+
 2) To upgrade your system, run the following command...
 
 
-Slide:
+***************
 
-So what are those lessons learned?
 
-From this talk you know
+So now that we've been through those 10 steps
+
+
+*************
+
+
+what are those lessons learned?
+
+
+I'd point to three meta-imporant lessons
 
 How to describe the Need
 The importance of making tasks easy for the deployer
@@ -617,3 +631,7 @@ You now have -- at least some of the tools that you need
 to 
 
 Help deployers run your webapps
+
+You can see my notes, and a link to my slides, on my GitHub account.
+
+Thanks!
