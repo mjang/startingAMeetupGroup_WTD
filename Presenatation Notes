@@ -17,7 +17,7 @@ To make sure that people know the good work that our developers do
 
 To make sure that our deployers can take advantage of the features that we build into our product
 
-I'll share the link to my GitHub account
+I'll share the link to my GitHub account -- and the slides at the end of this talk
 
 *****************
 
@@ -118,16 +118,6 @@ If you're a kid with 20/20 vision, this JavaScript code excerpt is easy to read.
 For me, it takes 4 or 5 of these files, 
 before it feels like I'm reading the front page of the New York Times
 
-*************
-
-This bit is from 1914, when they didn't even bother with pictures!
-
-So you'll understand my point
-
-When to your audience of Venture Capitalists and Analysts
-
-and I'd argue every developer with less than 5 minutes to read about your project
-
 Your self-documenting code 
 
 *************
@@ -149,7 +139,19 @@ Otherwise, that analyst or venture capitalist -- well
 
 even they know what to put into /dev/null
 
+
+*************
+
+This bit is from 1914, when they didn't even bother with pictures!
+
+So you'll understand my point
+
+When to your audience of Venture Capitalists and Analysts
+
+and I'd argue every developer with less than 5 minutes to read about your project
+
 **************
+
 
 Now you've made the commmitment to create some documentation. 
 
