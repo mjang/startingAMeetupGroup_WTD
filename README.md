@@ -1,5 +1,5 @@
 # HelpDeployers
-Help deployers run your webapps
+Help deployers run your webapps (https://www.slideshare.net/secret/7dhgIrSgS1SKER )
 
 My notes for an upcoming presentation, to the O'Reilly Fluent Conference, March 10, 2016
 
