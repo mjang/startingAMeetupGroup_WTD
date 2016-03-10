@@ -15,5 +15,5 @@ Presentation Notes: My personal notes for what I might say with each slide. They
 
 * LICENSE: Apache 2.0 (Disclaimer: IANAL)
 
-* Note: you may find the slidedeck at https://www.slideshare.net/secret/7dhgIrSgS1SKER 
+* Slidedeck: https://www.slideshare.net/secret/7dhgIrSgS1SKER 
 The license here probably doesn't cover use of those slides. I don't know SlideShare's limitations.
