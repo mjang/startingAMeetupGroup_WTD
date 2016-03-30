@@ -1,0 +1,82 @@
+= How to start your own Write The Docs Meetup Group
+
+Based on Mike Jang's talk at the 2015 Write The Docs NA Confernece:
+https://www.youtube.com/watch?v=ZwQ8Kd48d0w
+
+(formatted in AsciiDoc)
+
+Basic Steps
+
+== Attracting Members
+
+1) When organizing your Meetup, include topics beyond writing
+1a) Include topics focused on your industries 
+
+
+== Finding Sponsors
+
+Remember, you're a community leader.
+
+2) Find other community leaders. They have budgets too
+2a) List benefits for their companies
+Involve their documentarians
+Help them learn how others solve problems
+Give them a chance to hire
+
+== Finding Speakers
+
+3) Current / past WTD conferences
+3a) Speakers at other related meetups (more than writers)
+3b) Your membership
+3c) Network at other meetups
+
+
+== Finding Topics
+
+4) Good speakers come with their own topics
+4a) "Less experienced" speakers can do introductions
+4b) Don't limit yourself to topics related to writing
+4c) Lightning talks are an easy way to intro people to speaking
+
+
+== Spreading the Word
+
+5) Use Meetup annoucements, mailing lists
+5a) Use local tech calendars
+5b) Network at other meetups
+5c) Try a joint meetup
+
+== Meeting Location
+
+6) Should be relatively central
+6a) Opportunity for another sponsor
+6b) Scout out the facility: environment, wifi, microphones, etc.
+6c) Make sure everything works
+
+== Meetup Day Checklist
+
+7) Arrive early
+7a) Greet everyone. Make them feel welcome!
+7b) Help your speaker. Put them at ease.
+7c) Ask for help (People like helping)
+
+== Previous Topics (Ideas for future topics)
+
+- An Interactive Evening with Marcia Riefer Johnston
+- Lightning Talks
+- Networking
+Testing Documentation
+RESTful API Documentation
+Introduction to DITA
+Code4lib Barcamp
+WTD Proposal Preparation
+Help With Open Source Documentation
+When You Should Not Write The Docs
+Talk about "Better Stories, Better Technologies" 
+All Roads Might Not Lead to Docs 
+Consider "The Open Source Writing Stack" 
+Highlights of Write The Docs EU 
+Doc Hack Day 
+Comparing Read the Docs and DITA 
+Discuss Best Practices for UI Text 
+Discuss the Evolution of Mapbox Documentation
