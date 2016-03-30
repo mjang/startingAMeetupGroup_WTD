@@ -65,18 +65,18 @@ Give them a chance to hire
 - An Interactive Evening with Marcia Riefer Johnston
 - Lightning Talks
 - Networking
-Testing Documentation
-RESTful API Documentation
-Introduction to DITA
-Code4lib Barcamp
-WTD Proposal Preparation
-Help With Open Source Documentation
-When You Should Not Write The Docs
-Talk about "Better Stories, Better Technologies" 
-All Roads Might Not Lead to Docs 
-Consider "The Open Source Writing Stack" 
-Highlights of Write The Docs EU 
-Doc Hack Day 
-Comparing Read the Docs and DITA 
-Discuss Best Practices for UI Text 
-Discuss the Evolution of Mapbox Documentation
+- Testing Documentation
+- RESTful API Documentation
+- Introduction to DITA
+- Code4lib Barcamp
+- WTD Proposal Preparation
+- Help With Open Source Documentation
+- When You Should Not Write The Docs
+- Talk about "Better Stories, Better Technologies"
+- All Roads Might Not Lead to Docs
+- Consider "The Open Source Writing Stack"
+- Highlights of Write The Docs EU
+- Doc Hack Day
+- Comparing Read the Docs and DITA
+- Discuss Best Practices for UI Text
+- Discuss the Evolution of Mapbox Documentation
